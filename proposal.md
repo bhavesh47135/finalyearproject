@@ -2,19 +2,19 @@
 
 ## Introduction
 
-In recent years, especially in a major city like London, public transportation has become essential to commuters and tourists. That is why for my project, I’ve decided to create a cross-platform application that can be used to make travelling around London much easier. The app will include a way to find directions between two stations (including the cost of this), public transportation maps, and specially for tourists – locations and directions to popular tourist locations. The app will be made available for both mobile and desktop devices.
+In recent years, especially in a major city like London, public transportation has become essential to commuters and tourists. That is why for my project, I’ve decided to create a cross-platform application that can be used to make travelling around London much easier. The app will include a way to find directions between two locations (including the cost of this), public transportation maps, and specially for tourists – locations of and directions to popular tourist locations.
 
 ## Overview
 
 ### The Problem
 
-London is a major city and one of the most famous in the world, it is definitely not one of the easiest to navigate around. Whilst London’s public transportation is great, understanding how it works is not simple by any means. In the London Underground, everyday there will be multiple issues with multiple lines that can effect the timing of trains’ arrival, this means the timetable provided by TFL can be very unreliable.
+London is a major world city and one of the most famous cities in the world, it is definitely not one of the easiest to navigate around, especially without any help. Whilst London’s public transportation is great, understanding how it works is not simple by any means. In the London Underground, there are multiple issues with multiple lines every single day that can effect the timing of trains’ arrival, this means the timetable provided by TFL can be very unreliable. This will make knowing what time your train will be arriving difficult and will leave you unsure on what the best route to take to your destination is. This can cause inconvenience for commuters and commuters alike.
 
 ### The Hypothesis and the Approach
 
-The problem stated above could potentially solved if travellers were able to conveniently access train arrivals in real time, this could be done in an app. Users could very conveniently access an app on their mobile phones that will allow them to see the train arrivals as well as additional functionality, such as; maps of the London Underground, a way to find directions between two stations and a list of popular tourist locations.
+The problem stated above could potentially be solved if travellers were able to conveniently access train arrivals in real time, this could be done in an app. Users could very conveniently access an app on their mobile phones that will allow them to see the train arrivals as well as additional functionality, such as; maps of the London Underground, a way to find directions between two stations and a list of popular tourist locations.
 
-My approach will be to use Javascript and the Vue.js framework to create a cross-platform mobile app. I can retrieve data about London’s public transportation by utilising TFL’s (Transport for London) own API. TFL’s API offers information such as current line statuses, live time arrivals and much more that I can implement into an app that is more user-friendly for users.
+My approach will be to use Javascript and the Vue.js framework to create a cross-platform mobile app. I can retrieve data about London’s public transportation by utilising TFL’s (Transport for London) own API. TFL’s API offers information such as current line statuses, live time arrivals and much more that I can implement into an app that is more user-friendly. I will be writing all of my code in the Visual Studio Code IDE and I will also be using GitHub to make my data easier to access and easier to keep track of.
 
 ### Similar Apps
 
@@ -26,13 +26,19 @@ Citymapper: Citymapper is another example of a very popular app used for travell
 
 ### Evaluation
 
+To ensure the app that I have decided to create works as intended and is appropriate for the target audience, the app will need to be evaluated and tested. There are a couple ways to do this that I have detailed below.
 
+One way I can easily test the app myself is to actually use the app when I am travelling using London’s public transportation and test the accuracy of the app’s information, such as checking whether the time the app says the trains will arrive are accurate and checking whether the routes the app recommends me to take to my destination is indeed the quickest route I can take. 
+
+Other than the actual features of the app, the app will need to be tested to see if it has a good and appropriate UX and UI. I can achieve this by having my peers review the app, they can test the app in the same way that I have stated above whilst also testing the UI of the app. With a larger sample size from all my peers and their user feedback, I’ll have a better understanding of how good the UX and UI are, as well as how to improve these aspects of the app.
 
 ### Required Resources
 
-As the project I have chosen is purely software based, no hardware is required other than a computer that is capable of running an IDE such as Visual Studio Code. As previously mentioned, I will be using Javascript, the Vue.js framework and the API provided by TFL.
+As the project I have chosen is purely software based, no hardware is required other than a computer that is capable of running an IDE such as Visual Studio Code. As previously mentioned, I will be using Javascript, the Vue.js framework and the API provided by TFL. I will also be using GitHub to make the whole process easier for me.
 
 ## Deliverables
+
+During the process of creating the app, I have decided on making three prototypes before the app is finalised. The first iteration will be a simple paper prototype to outline the appearance of the app, this means I will plan out how the app will look by drawing it out, I plan to complete the first iteration by Week 11. The second iteration will be a working prototype of the app with basic working functions, such as the ability to retrieve some information correctly from TFL’s API, I plan to complete the second iteration by Week 16. The third iteration will be the final prototype of the app and should be fully functional, I plan to complete the third iteration by Week 20, this will give me enough time to make any last minute changes and complete the final report. All of the deliverables are listed in the table below.
 
 | Deadline | Milestone | Deliverable |
 | ---- | --------- | ----------- |
