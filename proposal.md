@@ -8,11 +8,11 @@ In recent years, especially in a major city like London, public transportation h
 
 ### The Problem
 
-London is a major world city and one of the most famous cities in the world, it is definitely not one of the easiest to navigate around, especially without any help. Whilst London’s public transportation is great, understanding how it works is not simple by any means. In the London Underground, there are multiple issues with multiple lines every single day that can effect the timing of trains’ arrival, this means the timetable provided by TFL can be very unreliable. This will make knowing what time your train will be arriving difficult and will leave you unsure on what the best route to take to your destination is. This can cause inconvenience for commuters and commuters alike.
+London is a major world city and one of the most famous cities in the world, it is definitely not one of the easiest to navigate around, especially without any help. Whilst London’s public transportation is great, understanding how it works is not simple by any means. In the London Underground, there are multiple issues with multiple lines every single day that can effect the timing of trains’ arrival, this means the timetable provided by TFL can be very unreliable. This will make knowing what time your train will be arriving difficult and will leave you unsure on what the best route to take to your destination is. This can cause inconvenience for commuters and tourists alike.
 
 ### The Hypothesis and the Approach
 
-The problem stated above could potentially be solved if travellers were able to conveniently access train arrivals in real time, this could be done in an app. Users could very conveniently access an app on their mobile phones that will allow them to see the train arrivals as well as additional functionality, such as; maps of the London Underground, a way to find directions between two stations and a list of popular tourist locations.
+The problem stated above could potentially be solved if travellers were able to conveniently access train arrivals in real time, this could be done within an app. Users could very conveniently access an app on their mobile phones that will allow them to see the train arrivals as well as additional functions within the app, such as; maps of the London Underground, a way to find directions between two locations and a list of popular tourist locations.
 
 My approach will be to use Javascript and the Vue.js framework to create a cross-platform mobile app. I can retrieve data about London’s public transportation by utilising TFL’s (Transport for London) own API. TFL’s API offers information such as current line statuses, live time arrivals and much more that I can implement into an app that is more user-friendly. I will be writing all of my code in the Visual Studio Code IDE and I will also be using GitHub to make my data easier to access and easier to keep track of.
 
@@ -23,6 +23,8 @@ To help create the app, I have researched a couple similar and popular applicati
 Google Maps: Google Maps is definitely the most popular app used for travel worldwide. In terms of public transportation, Google Maps is capable of showing the user how to get from one location to another using public transportation. Google Maps is available on desktop platforms, as well as iOS and Android devices.
 
 Citymapper: Citymapper is another example of a very popular app used for travelling, especially in London. In terms of public transport, Citymapper provides the most functionality. Within the Citymapper app, you are able to see the live arrivals for trains, see line statuses and much more.
+
+I have researched these applications in particular to help develop how my own application will function and look like.
 
 ### Evaluation
 
